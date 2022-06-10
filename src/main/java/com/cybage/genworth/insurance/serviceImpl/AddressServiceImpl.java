@@ -25,6 +25,5 @@ public class AddressServiceImpl implements AddressService {
 	public Address saveAddress(Address address) {
 		logger.info("Employee Service Implementation : savePolicy() method");
 		return repo.save(address);
-
 	}
 }
