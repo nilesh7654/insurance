@@ -24,6 +24,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public Employee saveEmployee(Employee employee) {
 		logger.info("Employee Service Implementation : savePolicy() method");
+		System.out.println("Insurance is essential part of our life");
 		return repo.save(employee);
 	}
 }
