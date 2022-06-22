@@ -25,6 +25,9 @@ public class EmployeeServiceImpl implements EmployeeService {
 	public Employee saveEmployee(Employee employee) {
 		logger.info("Employee Service Implementation : savePolicy() method");
 		System.out.println("Insurance is essential part of our life");
+		System.out.println("Insurance is  life");
+
+
 		return repo.save(employee);
 	}
 }
